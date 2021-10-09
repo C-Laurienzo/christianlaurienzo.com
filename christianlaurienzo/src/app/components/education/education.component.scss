@@ -1,5 +1,14 @@
-.education {
-    height: 700px;
+@import '../../../assets/styles/variables.scss';
 
+.education {
     padding: 20px;
+
+    h2 {
+        border-bottom: 1px solid $global-grey;
+        padding-bottom: 5px;
+    }
+
+    .logo{
+        height: 100px;
+    }
 }

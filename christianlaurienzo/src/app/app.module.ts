@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { OverviewComponent } from './components/overview/overview.component';
 import { EducationComponent } from './components/education/education.component';
-import { ExperienceComponent } from './components/experience/experience.component'
+import { ExperienceComponent } from './components/experience/experience.component';
+import { ContactMeComponent } from './components/contact-me/contact-me.component'
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ExperienceComponent } from './components/experience/experience.componen
     HomeComponent,
     OverviewComponent,
     EducationComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    ContactMeComponent
   ],
   imports: [
     BrowserModule,

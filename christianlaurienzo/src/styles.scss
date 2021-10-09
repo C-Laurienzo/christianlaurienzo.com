@@ -1,4 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+$general-grey: rgb(223, 221, 221) !default;
+
 body{
     position: relative;
 }

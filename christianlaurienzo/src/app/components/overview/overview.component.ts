@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./overview.component.scss']
 })
 export class OverviewComponent implements OnInit {
+  private _today: Date = new Date();
+  private _firstDayOnJob: Date = new Date("12/17/2018");
+
+  public yearsDeveloping: number = this._today.getFullYear() - this._firstDayOnJob.getFullYear();
 
   constructor() { }
 

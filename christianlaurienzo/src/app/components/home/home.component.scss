@@ -1,7 +1,22 @@
+@import '../../../assets/styles/variables.scss';
+
 .home {
 
+    nav {
+        border-right: 1px solid $global-grey;
+    }
+    
     ul.nav-pills {
         top: 20%;
         position: fixed;
+    }
+
+    .nav-pills .nav-link.active {
+        color:white;
+        background-color: $global-grey;
+    }
+
+    .nav-link {
+        color: black;
     }
 }
