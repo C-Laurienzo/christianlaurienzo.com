@@ -2,21 +2,33 @@
 
 .home {
 
-    nav {
-        border-right: 1px solid $global-grey;
-    }
-    
-    ul.nav-pills {
-        top: 20%;
+    .header{
+        top: 0;
         position: fixed;
-    }
+        width: 100%;
+        z-index: 100;
+        background-color: black;
 
-    .nav-pills .nav-link.active {
-        color:white;
-        background-color: $global-grey;
-    }
+        ul {
+            margin-left: 10px;
+        }
+    
+        .nav-pills .nav-link.active {
+            color: black;
+            background-color: white;
+        }
+    
+        .nav-link {
+            color: white;
+        }
 
-    .nav-link {
-        color: black;
+        .site-logo{
+            margin: 5px 0px 0px 20px;
+            height: 55px;
+
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
     }
 }
