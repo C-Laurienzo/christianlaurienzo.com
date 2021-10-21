@@ -1,0 +1,27 @@
+@import '../../../assets/styles/variables.scss';
+
+.gallery {
+    width: 102%;
+    top: 60px;
+
+    .profile-picture {
+        width: 300px;
+        border-radius: 200px;
+    }
+
+    .husband-wife-photo {
+        border-radius: 10%;
+    }
+    
+    .family-photo {
+        border-radius: 5%;
+    }
+
+    .gallery-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 300px;
+        margin-bottom: 5px;
+    }
+}

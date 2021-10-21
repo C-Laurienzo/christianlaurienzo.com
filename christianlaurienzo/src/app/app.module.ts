@@ -7,7 +7,8 @@ import { HomeComponent } from './components/home/home.component';
 import { OverviewComponent } from './components/overview/overview.component';
 import { EducationComponent } from './components/education/education.component';
 import { ExperienceComponent } from './components/experience/experience.component';
-import { ContactMeComponent } from './components/contact-me/contact-me.component'
+import { ContactMeComponent } from './components/contact-me/contact-me.component';
+import { GalleryComponent } from './components/gallery/gallery.component'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContactMeComponent } from './components/contact-me/contact-me.component
     OverviewComponent,
     EducationComponent,
     ExperienceComponent,
-    ContactMeComponent
+    ContactMeComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,

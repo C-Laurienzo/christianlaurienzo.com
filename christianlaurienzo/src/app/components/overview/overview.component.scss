@@ -5,10 +5,6 @@
     padding:20px;
     font-size: large;
 
-    @media (max-width: 768px) {
-        margin-top: 100px;
-    }
-
     h2 {
         border-bottom: 1px solid $global-grey;
     }
