@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  public logo: string | undefined;
 
   constructor() { }
 
   ngOnInit(): void {
+    this.logo = "../../../assets/images/cl-black-logo.png";
   }
-
 }

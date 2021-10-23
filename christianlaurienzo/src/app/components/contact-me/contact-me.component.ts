@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact-me.component.scss']
 })
 export class ContactMeComponent implements OnInit {
+  public phoneNumber: string | undefined;
+  public email: string | undefined;
+  public linkedIn: string | undefined;
+  public gitHub: string | undefined;
 
   constructor() { }
 
   ngOnInit(): void {
+    this.phoneNumber = "2169901711";
+    this.email = "christian.laurienzo@gmail.com";
+    this.linkedIn = "https://www.linkedin.com/in/christian-laurienzo-71b43260/";
+    this.gitHub = "https://github.com/C-Laurienzo";  
   }
-
 }

@@ -1,13 +1,9 @@
 <div class="home">
     <div class="row header">
-        <div class="col-sm-1">
-            <img class="site-logo"
-                 src="../../../assets/images/cl-black-logo.png">
-        </div>
-        <nav class="col-sm-7 navbar navbar-light" id="table-of-contents">
+        <nav class="col-sm-8 navbar navbar-light" id="table-of-contents">
             <ul class="nav nav-pills">
                 <li class="nav-item">
-                    <a class="nav-link" href="#overview">Overview</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#education">Education</a>
@@ -23,18 +19,18 @@
     </div>
     <div class="row mobile-header">
         <div class="col-sm-12">
-            <a href="#overview">
+            <a href="about">
                 <img class="site-logo"
-                 src="../../../assets/images/cl-black-logo.png">
+                 src="{{logo}}">
             </a>
             <contact-me></contact-me>
         </div>
     </div>
     <div class="row">
         <div class="col-md-12">
-            <div id="overview">
+            <div id="about">
                 <photo-gallery></photo-gallery>
-                <overview></overview>
+                <about></about>
             </div>
             <div id="education">
                 <education></education>
@@ -43,5 +39,8 @@
                 <experience></experience>
             </div>
         </div>
+    </div>
+    <div class="row footer">
+        <span class="p-3">Designed By Christian Laurienzo</span>
     </div>
 </div>

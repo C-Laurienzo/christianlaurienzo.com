@@ -1,11 +1,36 @@
 @import '../../../assets/styles/variables.scss';
 
 .experience {
-    height: 700px;
     padding: 20px;
 
     h2 {
         border-bottom: 1px solid $global-grey;
         padding-bottom: 5px;
+    }
+
+    h6 {
+        border-bottom: 1px solid $global-grey;
+    }
+
+    .mobile-hide {
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    .link-icon {
+        font-size: 15px;
+        color: black;
+        padding: 5px;
+        transition-property: font-size;
+        transition-duration: .5s;
+    }
+
+    .link-icon:hover {
+        font-size: 20px;
+    }
+
+    .btn {
+        border-radius: 20px;
     }
 }

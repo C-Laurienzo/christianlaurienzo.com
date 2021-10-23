@@ -1,4 +1,4 @@
-<div id="photo-gallery" class="carousel carousel-dark slide gallery" data-bs-ride="carousel">
+<div id="photo-gallery" class="carousel carousel-dark slide gallery" data-bs-ride="carousel" data-bs-interval="15000">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#photo-gallery" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Profile picture"></button>
       <button type="button" data-bs-target="#photo-gallery" data-bs-slide-to="1" aria-label="Christian and Carlie"></button>
@@ -7,18 +7,18 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="../../../assets/images/LinkedInProfilePicture.jpeg" 
+        <img src="{{profilePicture}}" 
              class="d-block gallery-image profile-picture" 
              alt="Picture of Christian Laurienzo">
       </div>
       <div class="carousel-item">
-        <img src="../../../assets/images/wedding.jpg" class="d-block gallery-image husband-wife-photo" alt="Christian and Carlie">
+        <img src="{{chrisAndCarlie}}" class="d-block gallery-image husband-wife-photo" alt="Christian and Carlie">
       </div>
       <div class="carousel-item">
-        <img src="../../../assets/images/family.jpg" class="d-block gallery-image family-photo" alt="Christian Laurienzo's family">
+        <img src="{{familyPhoto}}" class="d-block gallery-image family-photo" alt="Christian Laurienzo's family">
       </div>
       <div class="carousel-item">
-        <img src="../../../assets/images/cl-black-logo.png" class="d-block gallery-image" alt="Site logo">
+        <img src="{{logo}}" class="d-block gallery-image" alt="Site logo">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#photo-gallery" data-bs-slide="prev">
