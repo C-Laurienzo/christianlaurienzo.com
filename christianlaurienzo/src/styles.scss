@@ -1,6 +1,12 @@
 @import "~bootstrap-icons/font/bootstrap-icons.css";
+@import "./assets/styles/variables.scss";
 
 body{
     position: relative;
     font-family: monospace;
+}
+
+h2 {
+    border-bottom: 1px solid $global-grey;
+    padding-bottom: 5px;
 }

@@ -1,0 +1,14 @@
+@import "../../../assets/styles/variables.scss";
+
+.services {
+    padding: 20px;
+
+    i {
+        font-size: 30px;
+    }
+
+    .borders {
+        border-left: 1px solid $global-grey;
+        border-right: 1px solid $global-grey;
+    }
+}

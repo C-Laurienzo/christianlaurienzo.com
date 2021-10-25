@@ -8,7 +8,8 @@ import { AboutComponent } from './components/about/about.component';
 import { EducationComponent } from './components/education/education.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { ContactMeComponent } from './components/contact-me/contact-me.component';
-import { GalleryComponent } from './components/gallery/gallery.component'
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { ServicesComponent } from './components/services/services.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { GalleryComponent } from './components/gallery/gallery.component'
     EducationComponent,
     ExperienceComponent,
     ContactMeComponent,
-    GalleryComponent
+    GalleryComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
