@@ -8,7 +8,14 @@
     }
 
     .borders {
-        border-left: 1px solid $global-grey;
-        border-right: 1px solid $global-grey;
+        @media (max-width: 768px) {
+            border-top: 1px solid $global-grey;
+            border-bottom: 1px solid $global-grey;
+        }
+
+        @media (min-width: 768px) {
+            border-left: 1px solid $global-grey;
+            border-right: 1px solid $global-grey;
+        }
     }
 }
