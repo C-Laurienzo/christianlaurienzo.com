@@ -10,6 +10,7 @@ export class ContactMeComponent implements OnInit {
   public email: string | undefined;
   public linkedIn: string | undefined;
   public gitHub: string | undefined;
+  public resume: string | undefined;
 
   constructor() { }
 
@@ -17,6 +18,7 @@ export class ContactMeComponent implements OnInit {
     this.phoneNumber = "2169901711";
     this.email = "christian.laurienzo@gmail.com";
     this.linkedIn = "https://www.linkedin.com/in/christian-laurienzo-71b43260/";
-    this.gitHub = "https://github.com/C-Laurienzo";  
+    this.gitHub = "https://github.com/C-Laurienzo";
+    this.resume = "../../../assets/Resume.pdf"  
   }
 }
