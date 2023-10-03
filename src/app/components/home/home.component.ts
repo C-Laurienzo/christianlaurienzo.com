@@ -1,16 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core'
 
 @Component({
   selector: 'home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit {
-  public logo: string | undefined;
+export class HomeComponent {
+  public logo: string
 
-  constructor() { }
-
-  ngOnInit(): void {
-    this.logo = "../../../assets/images/cl-black-logo.png";
+  constructor () {
+    this.logo = 'https://image.christianlaurienzo.com/cl-black-logo.png'
   }
 }
